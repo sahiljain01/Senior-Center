@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5E3EAAC20ACF14C00E6415C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAAB20ACF14C00E6415C /* AppDelegate.swift */; };
+		E5E3EAAE20ACF14C00E6415C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAAD20ACF14C00E6415C /* ViewController.swift */; };
+		E5E3EAB120ACF14C00E6415C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E3EAAF20ACF14C00E6415C /* Main.storyboard */; };
+		E5E3EAB420ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAB220ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld */; };
+		E5E3EAB620ACF14C00E6415C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E3EAB520ACF14C00E6415C /* Assets.xcassets */; };
+		E5E3EAB920ACF14C00E6415C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */; };
+		E5E3EAC420ACF14C00E6415C /* Milpitas_Senior_CenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAC320ACF14C00E6415C /* Milpitas_Senior_CenterTests.swift */; };
+		E5E3EACF20ACF14C00E6415C /* Milpitas_Senior_CenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EACE20ACF14C00E6415C /* Milpitas_Senior_CenterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5E3EAC020ACF14C00E6415C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5E3EAA020ACF14C00E6415C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E3EAA720ACF14C00E6415C;
+			remoteInfo = "Milpitas Senior Center";
+		};
+		E5E3EACB20ACF14C00E6415C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5E3EAA020ACF14C00E6415C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E3EAA720ACF14C00E6415C;
+			remoteInfo = "Milpitas Senior Center";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5E3EAA820ACF14C00E6415C /* Milpitas Senior Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milpitas Senior Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E3EAAB20ACF14C00E6415C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5E3EAAD20ACF14C00E6415C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5E3EAB020ACF14C00E6415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5E3EAB320ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Milpitas_Senior_Center.xcdatamodel; sourceTree = "<group>"; };
+		E5E3EAB520ACF14C00E6415C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5E3EAB820ACF14C00E6415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5E3EABA20ACF14C00E6415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E3EABF20ACF14C00E6415C /* Milpitas Senior CenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milpitas Senior CenterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E3EAC320ACF14C00E6415C /* Milpitas_Senior_CenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milpitas_Senior_CenterTests.swift; sourceTree = "<group>"; };
+		E5E3EAC520ACF14C00E6415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E3EACA20ACF14C00E6415C /* Milpitas Senior CenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milpitas Senior CenterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E3EACE20ACF14C00E6415C /* Milpitas_Senior_CenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milpitas_Senior_CenterUITests.swift; sourceTree = "<group>"; };
+		E5E3EAD020ACF14C00E6415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5E3EAA520ACF14C00E6415C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3EABC20ACF14C00E6415C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3EAC720ACF14C00E6415C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5E3EA9F20ACF14C00E6415C = {
+			isa = PBXGroup;
+			children = (
+				E5E3EAAA20ACF14C00E6415C /* Milpitas Senior Center */,
+				E5E3EAC220ACF14C00E6415C /* Milpitas Senior CenterTests */,
+				E5E3EACD20ACF14C00E6415C /* Milpitas Senior CenterUITests */,
+				E5E3EAA920ACF14C00E6415C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5E3EAA920ACF14C00E6415C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5E3EAA820ACF14C00E6415C /* Milpitas Senior Center.app */,
+				E5E3EABF20ACF14C00E6415C /* Milpitas Senior CenterTests.xctest */,
+				E5E3EACA20ACF14C00E6415C /* Milpitas Senior CenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5E3EAAA20ACF14C00E6415C /* Milpitas Senior Center */ = {
+			isa = PBXGroup;
+			children = (
+				E5E3EAAB20ACF14C00E6415C /* AppDelegate.swift */,
+				E5E3EAAD20ACF14C00E6415C /* ViewController.swift */,
+				E5E3EAAF20ACF14C00E6415C /* Main.storyboard */,
+				E5E3EAB520ACF14C00E6415C /* Assets.xcassets */,
+				E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */,
+				E5E3EABA20ACF14C00E6415C /* Info.plist */,
+				E5E3EAB220ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld */,
+			);
+			path = "Milpitas Senior Center";
+			sourceTree = "<group>";
+		};
+		E5E3EAC220ACF14C00E6415C /* Milpitas Senior CenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5E3EAC320ACF14C00E6415C /* Milpitas_Senior_CenterTests.swift */,
+				E5E3EAC520ACF14C00E6415C /* Info.plist */,
+			);
+			path = "Milpitas Senior CenterTests";
+			sourceTree = "<group>";
+		};
+		E5E3EACD20ACF14C00E6415C /* Milpitas Senior CenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5E3EACE20ACF14C00E6415C /* Milpitas_Senior_CenterUITests.swift */,
+				E5E3EAD020ACF14C00E6415C /* Info.plist */,
+			);
+			path = "Milpitas Senior CenterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5E3EAA720ACF14C00E6415C /* Milpitas Senior Center */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E3EAD320ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior Center" */;
+			buildPhases = (
+				E5E3EAA420ACF14C00E6415C /* Sources */,
+				E5E3EAA520ACF14C00E6415C /* Frameworks */,
+				E5E3EAA620ACF14C00E6415C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Milpitas Senior Center";
+			productName = "Milpitas Senior Center";
+			productReference = E5E3EAA820ACF14C00E6415C /* Milpitas Senior Center.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5E3EABE20ACF14C00E6415C /* Milpitas Senior CenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E3EAD620ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior CenterTests" */;
+			buildPhases = (
+				E5E3EABB20ACF14C00E6415C /* Sources */,
+				E5E3EABC20ACF14C00E6415C /* Frameworks */,
+				E5E3EABD20ACF14C00E6415C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E3EAC120ACF14C00E6415C /* PBXTargetDependency */,
+			);
+			name = "Milpitas Senior CenterTests";
+			productName = "Milpitas Senior CenterTests";
+			productReference = E5E3EABF20ACF14C00E6415C /* Milpitas Senior CenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5E3EAC920ACF14C00E6415C /* Milpitas Senior CenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E3EAD920ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior CenterUITests" */;
+			buildPhases = (
+				E5E3EAC620ACF14C00E6415C /* Sources */,
+				E5E3EAC720ACF14C00E6415C /* Frameworks */,
+				E5E3EAC820ACF14C00E6415C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E3EACC20ACF14C00E6415C /* PBXTargetDependency */,
+			);
+			name = "Milpitas Senior CenterUITests";
+			productName = "Milpitas Senior CenterUITests";
+			productReference = E5E3EACA20ACF14C00E6415C /* Milpitas Senior CenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5E3EAA020ACF14C00E6415C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sahil Jain";
+				TargetAttributes = {
+					E5E3EAA720ACF14C00E6415C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E5E3EABE20ACF14C00E6415C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5E3EAA720ACF14C00E6415C;
+					};
+					E5E3EAC920ACF14C00E6415C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5E3EAA720ACF14C00E6415C;
+					};
+				};
+			};
+			buildConfigurationList = E5E3EAA320ACF14C00E6415C /* Build configuration list for PBXProject "Milpitas Senior Center" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5E3EA9F20ACF14C00E6415C;
+			productRefGroup = E5E3EAA920ACF14C00E6415C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5E3EAA720ACF14C00E6415C /* Milpitas Senior Center */,
+				E5E3EABE20ACF14C00E6415C /* Milpitas Senior CenterTests */,
+				E5E3EAC920ACF14C00E6415C /* Milpitas Senior CenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5E3EAA620ACF14C00E6415C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E3EAB920ACF14C00E6415C /* LaunchScreen.storyboard in Resources */,
+				E5E3EAB620ACF14C00E6415C /* Assets.xcassets in Resources */,
+				E5E3EAB120ACF14C00E6415C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3EABD20ACF14C00E6415C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3EAC820ACF14C00E6415C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5E3EAA420ACF14C00E6415C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E3EAB420ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld in Sources */,
+				E5E3EAAE20ACF14C00E6415C /* ViewController.swift in Sources */,
+				E5E3EAAC20ACF14C00E6415C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3EABB20ACF14C00E6415C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E3EAC420ACF14C00E6415C /* Milpitas_Senior_CenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E3EAC620ACF14C00E6415C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E3EACF20ACF14C00E6415C /* Milpitas_Senior_CenterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5E3EAC120ACF14C00E6415C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5E3EAA720ACF14C00E6415C /* Milpitas Senior Center */;
+			targetProxy = E5E3EAC020ACF14C00E6415C /* PBXContainerItemProxy */;
+		};
+		E5E3EACC20ACF14C00E6415C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5E3EAA720ACF14C00E6415C /* Milpitas Senior Center */;
+			targetProxy = E5E3EACB20ACF14C00E6415C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5E3EAAF20ACF14C00E6415C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E3EAB020ACF14C00E6415C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E3EAB820ACF14C00E6415C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5E3EAD120ACF14C00E6415C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5E3EAD220ACF14C00E6415C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5E3EAD420ACF14C00E6415C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM3UL49RH2;
+				INFOPLIST_FILE = "Milpitas Senior Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5E3EAD520ACF14C00E6415C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM3UL49RH2;
+				INFOPLIST_FILE = "Milpitas Senior Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5E3EAD720ACF14C00E6415C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM3UL49RH2;
+				INFOPLIST_FILE = "Milpitas Senior CenterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-CenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milpitas Senior Center.app/Milpitas Senior Center";
+			};
+			name = Debug;
+		};
+		E5E3EAD820ACF14C00E6415C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM3UL49RH2;
+				INFOPLIST_FILE = "Milpitas Senior CenterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-CenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milpitas Senior Center.app/Milpitas Senior Center";
+			};
+			name = Release;
+		};
+		E5E3EADA20ACF14C00E6415C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM3UL49RH2;
+				INFOPLIST_FILE = "Milpitas Senior CenterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-CenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milpitas Senior Center";
+			};
+			name = Debug;
+		};
+		E5E3EADB20ACF14C00E6415C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM3UL49RH2;
+				INFOPLIST_FILE = "Milpitas Senior CenterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-CenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milpitas Senior Center";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5E3EAA320ACF14C00E6415C /* Build configuration list for PBXProject "Milpitas Senior Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E3EAD120ACF14C00E6415C /* Debug */,
+				E5E3EAD220ACF14C00E6415C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E3EAD320ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E3EAD420ACF14C00E6415C /* Debug */,
+				E5E3EAD520ACF14C00E6415C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E3EAD620ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior CenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E3EAD720ACF14C00E6415C /* Debug */,
+				E5E3EAD820ACF14C00E6415C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E3EAD920ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior CenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E3EADA20ACF14C00E6415C /* Debug */,
+				E5E3EADB20ACF14C00E6415C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5E3EAB220ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5E3EAB320ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodel */,
+			);
+			currentVersion = E5E3EAB320ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodel */;
+			path = Milpitas_Senior_Center.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5E3EAA020ACF14C00E6415C /* Project object */;
+}
