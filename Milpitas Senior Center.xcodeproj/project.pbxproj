@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527604B622D9D2BCC77BCD18 /* Pods_Milpitas_Senior_Center.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3825079D6DAB81BBE6633A6D /* Pods_Milpitas_Senior_Center.framework */; };
+		5EF1D0C4AE13682F754841C5 /* Pods_Milpitas_Senior_CenterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0439B6959A5B41006D25DDDC /* Pods_Milpitas_Senior_CenterUITests.framework */; };
+		933DD13D2F119F1758148F03 /* Pods_Milpitas_Senior_CenterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80448BBC620909EFCDB59026 /* Pods_Milpitas_Senior_CenterTests.framework */; };
+		E508D0CD20B9383B0058E0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E508D0CC20B938340058E0C3 /* Main.storyboard */; };
+		E508D0D020B9386F0058E0C3 /* OppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508D0CE20B9386F0058E0C3 /* OppViewController.swift */; };
+		E508D0D120B9386F0058E0C3 /* OppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508D0CF20B9386F0058E0C3 /* OppTableViewCell.swift */; };
+		E508D0D520B93D9C0058E0C3 /* VolunteerOpp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508D0D420B93D9C0058E0C3 /* VolunteerOpp.swift */; };
+		E508D0D720B93EA10058E0C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E508D0D620B93EA00058E0C3 /* GoogleService-Info.plist */; };
+		E55A2C38216DDE7700FB13C4 /* FirebaseReqCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A2C37216DDE7700FB13C4 /* FirebaseReqCode.swift */; };
+		E5BDA55D216D84D600425A81 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA559216D84D500425A81 /* CalendarViewController.swift */; };
+		E5BDA55E216D84D600425A81 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA55A216D84D500425A81 /* CalenderView.swift */; };
+		E5BDA55F216D84D600425A81 /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA55B216D84D600425A81 /* WeekdaysView.swift */; };
+		E5BDA560216D84D600425A81 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA55C216D84D600425A81 /* MonthView.swift */; };
+		E5BDA563216DB5E000425A81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA562216DB5E000425A81 /* HomeViewController.swift */; };
+		E5BDA566216DB6CD00425A81 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BDA565216DB6CD00425A81 /* HomeCollectionViewCell.swift */; };
 		E5E3EAAC20ACF14C00E6415C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAAB20ACF14C00E6415C /* AppDelegate.swift */; };
 		E5E3EAAE20ACF14C00E6415C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAAD20ACF14C00E6415C /* ViewController.swift */; };
-		E5E3EAB120ACF14C00E6415C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E3EAAF20ACF14C00E6415C /* Main.storyboard */; };
 		E5E3EAB420ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5E3EAB220ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld */; };
 		E5E3EAB620ACF14C00E6415C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E3EAB520ACF14C00E6415C /* Assets.xcassets */; };
 		E5E3EAB920ACF14C00E6415C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */; };
@@ -35,10 +49,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0439B6959A5B41006D25DDDC /* Pods_Milpitas_Senior_CenterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milpitas_Senior_CenterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C8D373743FC3D1BB1CFF39 /* Pods-Milpitas Senior CenterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milpitas Senior CenterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milpitas Senior CenterUITests/Pods-Milpitas Senior CenterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09DCE312D01E7D840B8E16AD /* Pods-Milpitas Senior CenterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milpitas Senior CenterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milpitas Senior CenterUITests/Pods-Milpitas Senior CenterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B1B08D7F1E77C6AE26E7BB7 /* Pods-Milpitas Senior Center.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milpitas Senior Center.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milpitas Senior Center/Pods-Milpitas Senior Center.debug.xcconfig"; sourceTree = "<group>"; };
+		3825079D6DAB81BBE6633A6D /* Pods_Milpitas_Senior_Center.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milpitas_Senior_Center.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80448BBC620909EFCDB59026 /* Pods_Milpitas_Senior_CenterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milpitas_Senior_CenterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A727DF5015FD869040CA51ED /* Pods-Milpitas Senior CenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milpitas Senior CenterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milpitas Senior CenterTests/Pods-Milpitas Senior CenterTests.release.xcconfig"; sourceTree = "<group>"; };
+		B842A706029811770FBFEC69 /* Pods-Milpitas Senior CenterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milpitas Senior CenterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milpitas Senior CenterTests/Pods-Milpitas Senior CenterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4DBD6B6A3AF78AFE40086BE /* Pods-Milpitas Senior Center.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milpitas Senior Center.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milpitas Senior Center/Pods-Milpitas Senior Center.release.xcconfig"; sourceTree = "<group>"; };
+		E508D0CC20B938340058E0C3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E508D0CE20B9386F0058E0C3 /* OppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OppViewController.swift; sourceTree = "<group>"; };
+		E508D0CF20B9386F0058E0C3 /* OppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OppTableViewCell.swift; sourceTree = "<group>"; };
+		E508D0D420B93D9C0058E0C3 /* VolunteerOpp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolunteerOpp.swift; sourceTree = "<group>"; };
+		E508D0D620B93EA00058E0C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E55A2C37216DDE7700FB13C4 /* FirebaseReqCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReqCode.swift; sourceTree = "<group>"; };
+		E5BDA559216D84D500425A81 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E5BDA55A216D84D500425A81 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		E5BDA55B216D84D600425A81 /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysView.swift; sourceTree = "<group>"; };
+		E5BDA55C216D84D600425A81 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		E5BDA562216DB5E000425A81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5BDA565216DB6CD00425A81 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		E5E3EAA820ACF14C00E6415C /* Milpitas Senior Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milpitas Senior Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E3EAAB20ACF14C00E6415C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E3EAAD20ACF14C00E6415C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5E3EAB020ACF14C00E6415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5E3EAB320ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Milpitas_Senior_Center.xcdatamodel; sourceTree = "<group>"; };
 		E5E3EAB520ACF14C00E6415C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E3EAB820ACF14C00E6415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527604B622D9D2BCC77BCD18 /* Pods_Milpitas_Senior_Center.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933DD13D2F119F1758148F03 /* Pods_Milpitas_Senior_CenterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF1D0C4AE13682F754841C5 /* Pods_Milpitas_Senior_CenterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82F978FC228447C41D12DF47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3825079D6DAB81BBE6633A6D /* Pods_Milpitas_Senior_Center.framework */,
+				80448BBC620909EFCDB59026 /* Pods_Milpitas_Senior_CenterTests.framework */,
+				0439B6959A5B41006D25DDDC /* Pods_Milpitas_Senior_CenterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		972238D78B38B4E2FB5FB1E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B08D7F1E77C6AE26E7BB7 /* Pods-Milpitas Senior Center.debug.xcconfig */,
+				C4DBD6B6A3AF78AFE40086BE /* Pods-Milpitas Senior Center.release.xcconfig */,
+				B842A706029811770FBFEC69 /* Pods-Milpitas Senior CenterTests.debug.xcconfig */,
+				A727DF5015FD869040CA51ED /* Pods-Milpitas Senior CenterTests.release.xcconfig */,
+				06C8D373743FC3D1BB1CFF39 /* Pods-Milpitas Senior CenterUITests.debug.xcconfig */,
+				09DCE312D01E7D840B8E16AD /* Pods-Milpitas Senior CenterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5BDA561216DB5C000425A81 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E5BDA55A216D84D500425A81 /* CalenderView.swift */,
+				E5BDA55C216D84D600425A81 /* MonthView.swift */,
+				E5BDA55B216D84D600425A81 /* WeekdaysView.swift */,
+				E5BDA559216D84D500425A81 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E5BDA564216DB5E300425A81 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				E508D0CE20B9386F0058E0C3 /* OppViewController.swift */,
+				E508D0CF20B9386F0058E0C3 /* OppTableViewCell.swift */,
+				E508D0D420B93D9C0058E0C3 /* VolunteerOpp.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		E5BDA567216DB6D200425A81 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				E5BDA562216DB5E000425A81 /* HomeViewController.swift */,
+				E5BDA565216DB6CD00425A81 /* HomeCollectionViewCell.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
 		E5E3EA9F20ACF14C00E6415C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +173,8 @@
 				E5E3EAC220ACF14C00E6415C /* Milpitas Senior CenterTests */,
 				E5E3EACD20ACF14C00E6415C /* Milpitas Senior CenterUITests */,
 				E5E3EAA920ACF14C00E6415C /* Products */,
+				972238D78B38B4E2FB5FB1E6 /* Pods */,
+				82F978FC228447C41D12DF47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +191,18 @@
 		E5E3EAAA20ACF14C00E6415C /* Milpitas Senior Center */ = {
 			isa = PBXGroup;
 			children = (
+				E508D0D620B93EA00058E0C3 /* GoogleService-Info.plist */,
+				E55A2C37216DDE7700FB13C4 /* FirebaseReqCode.swift */,
 				E5E3EAAB20ACF14C00E6415C /* AppDelegate.swift */,
+				E5BDA567216DB6D200425A81 /* Home Page */,
+				E5BDA564216DB5E300425A81 /* Events */,
+				E5BDA561216DB5C000425A81 /* Calendar */,
 				E5E3EAAD20ACF14C00E6415C /* ViewController.swift */,
-				E5E3EAAF20ACF14C00E6415C /* Main.storyboard */,
-				E5E3EAB520ACF14C00E6415C /* Assets.xcassets */,
-				E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */,
-				E5E3EABA20ACF14C00E6415C /* Info.plist */,
+				E508D0CC20B938340058E0C3 /* Main.storyboard */,
 				E5E3EAB220ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld */,
+				E5E3EAB520ACF14C00E6415C /* Assets.xcassets */,
+				E5E3EABA20ACF14C00E6415C /* Info.plist */,
+				E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */,
 			);
 			path = "Milpitas Senior Center";
 			sourceTree = "<group>";
@@ -135,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E3EAD320ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior Center" */;
 			buildPhases = (
+				F88E42C243E2F53FCE093A8E /* [CP] Check Pods Manifest.lock */,
 				E5E3EAA420ACF14C00E6415C /* Sources */,
 				E5E3EAA520ACF14C00E6415C /* Frameworks */,
 				E5E3EAA620ACF14C00E6415C /* Resources */,
+				C7951643E58B2183D089D7AA /* [CP] Embed Pods Frameworks */,
+				BC91DDA22F0EEA502806C598 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E3EAD620ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior CenterTests" */;
 			buildPhases = (
+				279A335E63EC5D206EFEDC6F /* [CP] Check Pods Manifest.lock */,
 				E5E3EABB20ACF14C00E6415C /* Sources */,
 				E5E3EABC20ACF14C00E6415C /* Frameworks */,
 				E5E3EABD20ACF14C00E6415C /* Resources */,
+				EE8788C8536BECA41A94EAA0 /* [CP] Embed Pods Frameworks */,
+				4D91E1864A4E7B06E7CB5330 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E3EAD920ACF14C00E6415C /* Build configuration list for PBXNativeTarget "Milpitas Senior CenterUITests" */;
 			buildPhases = (
+				2FBEB1CBEEB530997E00CBFD /* [CP] Check Pods Manifest.lock */,
 				E5E3EAC620ACF14C00E6415C /* Sources */,
 				E5E3EAC720ACF14C00E6415C /* Frameworks */,
 				E5E3EAC820ACF14C00E6415C /* Resources */,
+				ECAC84106D7EE94CA78A94C1 /* [CP] Embed Pods Frameworks */,
+				64269F919C581CBF571EEF13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,8 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E3EAB920ACF14C00E6415C /* LaunchScreen.storyboard in Resources */,
+				E508D0D720B93EA10058E0C3 /* GoogleService-Info.plist in Resources */,
 				E5E3EAB620ACF14C00E6415C /* Assets.xcassets in Resources */,
-				E5E3EAB120ACF14C00E6415C /* Main.storyboard in Resources */,
+				E508D0CD20B9383B0058E0C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +364,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		279A335E63EC5D206EFEDC6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milpitas Senior CenterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FBEB1CBEEB530997E00CBFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milpitas Senior CenterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D91E1864A4E7B06E7CB5330 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior CenterTests/Pods-Milpitas Senior CenterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64269F919C581CBF571EEF13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior CenterUITests/Pods-Milpitas Senior CenterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC91DDA22F0EEA502806C598 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior Center/Pods-Milpitas Senior Center-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7951643E58B2183D089D7AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior Center/Pods-Milpitas Senior Center-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior Center/Pods-Milpitas Senior Center-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAC84106D7EE94CA78A94C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior CenterUITests/Pods-Milpitas Senior CenterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8788C8536BECA41A94EAA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milpitas Senior CenterTests/Pods-Milpitas Senior CenterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88E42C243E2F53FCE093A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milpitas Senior Center-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5E3EAA420ACF14C00E6415C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E508D0D520B93D9C0058E0C3 /* VolunteerOpp.swift in Sources */,
+				E5BDA560216D84D600425A81 /* MonthView.swift in Sources */,
+				E5BDA55F216D84D600425A81 /* WeekdaysView.swift in Sources */,
+				E508D0D020B9386F0058E0C3 /* OppViewController.swift in Sources */,
 				E5E3EAB420ACF14C00E6415C /* Milpitas_Senior_Center.xcdatamodeld in Sources */,
 				E5E3EAAE20ACF14C00E6415C /* ViewController.swift in Sources */,
 				E5E3EAAC20ACF14C00E6415C /* AppDelegate.swift in Sources */,
+				E5BDA563216DB5E000425A81 /* HomeViewController.swift in Sources */,
+				E55A2C38216DDE7700FB13C4 /* FirebaseReqCode.swift in Sources */,
+				E5BDA55D216D84D600425A81 /* CalendarViewController.swift in Sources */,
+				E5BDA55E216D84D600425A81 /* CalenderView.swift in Sources */,
+				E508D0D120B9386F0058E0C3 /* OppTableViewCell.swift in Sources */,
+				E5BDA566216DB6CD00425A81 /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +571,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5E3EAAF20ACF14C00E6415C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5E3EAB020ACF14C00E6415C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5E3EAB720ACF14C00E6415C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +691,13 @@
 		};
 		E5E3EAD420ACF14C00E6415C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1B08D7F1E77C6AE26E7BB7 /* Pods-Milpitas Senior Center.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CM3UL49RH2;
+				DEVELOPMENT_TEAM = LA6K75UP5U;
 				INFOPLIST_FILE = "Milpitas Senior Center/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-Center";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,11 +708,13 @@
 		};
 		E5E3EAD520ACF14C00E6415C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DBD6B6A3AF78AFE40086BE /* Pods-Milpitas Senior Center.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CM3UL49RH2;
+				DEVELOPMENT_TEAM = LA6K75UP5U;
 				INFOPLIST_FILE = "Milpitas Senior Center/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sahil-Jain.Milpitas-Senior-Center";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +725,7 @@
 		};
 		E5E3EAD720ACF14C00E6415C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B842A706029811770FBFEC69 /* Pods-Milpitas Senior CenterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +743,7 @@
 		};
 		E5E3EAD820ACF14C00E6415C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A727DF5015FD869040CA51ED /* Pods-Milpitas Senior CenterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +761,7 @@
 		};
 		E5E3EADA20ACF14C00E6415C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C8D373743FC3D1BB1CFF39 /* Pods-Milpitas Senior CenterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +778,7 @@
 		};
 		E5E3EADB20ACF14C00E6415C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DCE312D01E7D840B8E16AD /* Pods-Milpitas Senior CenterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
